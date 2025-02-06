@@ -185,7 +185,13 @@
 //
 // welcome(); // ok now
 
-let now = getDate();
-console.log( now ); // shows current date/time
+// let now = getDate();
+// console.log( now ); // shows current date/time
 
-setFullYea
+
+const currentDate=new Date();
+console.log(currentDate);
+console.log(currentDate.getDay())
+console.log(currentDate.getFullYear())
+console.log(currentDate.setMilliseconds())
+console.log(currentDate.setUTCMonth())
