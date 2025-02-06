@@ -106,22 +106,86 @@
 // }
 //
 // welcome();
+//
+// let age = 19;
+//
+//
+// if (age < 18) {
+//
+//     function welcome() {
+//         console.log("Hello!");
+//     }
+//
+// } else {
+//
+//     function welcome() {
+//         console.log("Greetings!");
+//     }
+//
+// }
+//
+// welcome();
 
-let age = 19;
+// let age = 16; // take 16 as an example
+//
+// if (age < 18) {
+//     // welcome();               // \   (runs)
+//                              //  |
+//     function welcome() {     //  |
+//         console.log("Hello!");       //  |  Function Declaration is available
+//     }                        //  |  everywhere in the block where it's declared
+//                              //  |
+//     // welcome();               // /   (runs)
+//
+// } else {
+//
+//     function welcome() {
+//         console.log("Greetings!");
+//     }
+// }
+// welcome()
+//
+// let age = 10;
+//
+// let welcome;
+//
+// if (age < 18) {
+//
+//     welcome = function() {
+//         console.log("Hello!");
+//     };
+//
+// } else {
+//
+//     welcome = function() {
+//         console.log("Greetings!");
+//     };
+//
+// }
+//
+// welcome(); // ok now
 
+// let age = 1;
+//
+// let welcome = (age < 18) ?
+//     function() {
+//         console.log("Hello!"); } :
+//     function() {
+//         console.log("Greetings!"); };
+//
+// welcome(); // ok now
+//
+// let age = 19;
+//
+// let welcome = (age < 18) ?
+//     function() {
+//         console.log("Hello!"); } :
+//     function() {
+//         console.log("Greetings!"); };
+//
+// welcome(); // ok now
 
-if (age < 18) {
+let now = getDate();
+console.log( now ); // shows current date/time
 
-    function welcome() {
-        console.log("Hello!");
-    }
-
-} else {
-
-    function welcome() {
-        console.log("Greetings!");
-    }
-
-}
-
-welcome();
+setFullYea
