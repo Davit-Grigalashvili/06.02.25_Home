@@ -88,26 +88,26 @@
 //     console.log(`Hello, ${name}`)
 // }
 
-let age = prompt("What is your age?", 19);
+// let age = prompt("What is your age?", 19);
+//
+//
+// if (age < 18) {
+//
+//     function welcome() {
+//         console.log("Hello!");
+//     }
+//
+// } else {
+//
+//     function welcome() {
+//         console.log("Greetings!");
+//     }
+//
+// }
+//
+// welcome();
 
-
-if (age < 18) {
-
-    function welcome() {
-        console.log("Hello!");
-    }
-
-} else {
-
-    function welcome() {
-        console.log("Greetings!");
-    }
-
-}
-
-welcome();
-
-let age = prompt("What is your age?", 19);
+let age = 19;
 
 
 if (age < 18) {
